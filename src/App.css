@@ -1,5 +1,5 @@
 body {
-  background-color: #830000;
+  background-image: url("../src/images/cosmos.jpg");
 }
 
 .App {
@@ -9,7 +9,7 @@ body {
 }
 
 .App header {
-  background-color: #330000;
+  background-color: #32005c;
   height: 10vh;
   min-height: 50px;
   color: rgb(255, 255, 255);
@@ -30,7 +30,8 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  background-color: rgb(56, 36, 36);
+  background-image: url("../src/images/cosmos2.png");
+  background-size: contain;
 }
 
 main {
@@ -43,38 +44,38 @@ main {
 }
 
 main::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 16px;
 }
 
 main::-webkit-scrollbar-track {
-  background: #241e1e;
+  background: #100022;
 }
 
 main::-webkit-scrollbar-thumb {
-  background: #b84949;
+  background: #4e00a7;
 }
 
 form {
   height: 10vh;
   position: fixed;
   bottom: 0;
-  background-color: rgb(61, 47, 47);
+  background-color: rgb(31, 25, 124);
   width: 100%;
   max-width: 728px;
   display: flex;
-  font-size: 1.5rem;
+  font-size: 24px;
 }
 
 form button {
   width: 20%;
-  background-color: rgb(100, 0, 0);
+  background-color: rgb(9, 0, 58);
 }
 
 input {
   line-height: 1.5;
   width: 100%;
-  font-size: 1.5rem;
-  background: rgb(61, 47, 47);
+  font-size: 24px;
+  background: rgb(31, 25, 124);
   color: white;
   outline: none;
   border: none;
@@ -90,7 +91,7 @@ button {
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-  font-size: 1.25rem;
+  font-size: 20px;
   border-radius: 24px;
 }
 
@@ -98,7 +99,6 @@ button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
-
 
 .sign-in {
   color: #282c34;
@@ -135,10 +135,10 @@ p {
 
 .sent p {
   color: white;
-  background: #f60b0b;
+  background: #c300ff;
   align-self: flex-end;
 }
 .received p {
-  background: #fd9191;
+  background: #ba91fd;
   color: black;
 }
