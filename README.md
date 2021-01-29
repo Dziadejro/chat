@@ -22,5 +22,8 @@ Po wykonaniu tego kroku naszym oczom powinien ukazać się chat w pełni zsynchr
 - JavaScript
 - Firebase
 
+## Kod
+Kod projektu znajduje się w głównie w lokalizacji `src/App.js` oraz `src/App.css`.
+
 ## Autorzy
 Praca została wykonana samodzielnie przez Michała Dziadczykowskiego, studenta z grupy S32-32 z wydziału zarządzania w Gdańsku jako projekt zaliczeniowy.
