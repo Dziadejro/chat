@@ -18,6 +18,7 @@ Po wykonaniu tego kroku naszym oczom powinien ukazać się chat w pełni zsynchr
 ## Wykorzystane technologie
 - React
 - CSS
+- HTML
 - JavaScript
 - Firebase
 
